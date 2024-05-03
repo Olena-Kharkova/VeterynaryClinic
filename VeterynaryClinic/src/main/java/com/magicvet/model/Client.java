@@ -5,6 +5,7 @@ public class Client {
     private String firstName;
     private String lastName;
     private String email;
+    private Pet pet;
 
     public String getFirstName() {
         return firstName;
@@ -28,5 +29,13 @@ public class Client {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Pet getPet() {
+        return pet;
+    }
+
+    public void setPet(Pet pet) {
+        this.pet = pet;
     }
 }
